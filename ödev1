@@ -1,0 +1,57 @@
+void main() {
+  //soru1
+int number = -3;
+
+  if (number > 0) {
+    print("Sayı pozitiftir.");
+  } else if (number < 0) {
+    print("Sayı negatiftir.");
+  } else {
+    print("Sayı sıfırdır.");
+  }
+}
+void main() {
+ //soru2 
+List<int> numbers = [1, 2,3, 4, 5]; 
+  int i;
+  int sum=0;
+  for(i=0; i<numbers.length;i++){
+     sum +=numbers[i];
+    
+  }
+  print('listenin elemenaları toplamı: $sum');
+}
+void main() {
+//soru3
+  // Filmler ve çıkış yıllarını içeren map
+  Map<String, int> filmler = {
+    'Inception': 2010,
+    'The Shawshank Redemption': 1994,
+    'The Godfather': 1972,
+    'Pulp Fiction': 1994,
+    'The Dark Knight': 2008,
+    'Fight Club': 1999,
+    'Forrest Gump': 1994,
+    'The Matrix': 1999,
+    'Goodfellas': 1990,
+    'The Lord of the Rings: The Return of the King': 2003,
+    'The Silence of the Lambs': 1991,
+    'Schindler\'s List': 1993,
+    'Gladiator': 2000,
+    'The Prestige': 2006,
+    'The Lion King': 1994,
+    'Saving Private Ryan': 1998,
+    'Jurassic Park': 1993,
+    'Back to the Future': 1985,
+    'Titanic': 1997,
+    'Avatar': 2009,
+  };
+
+  if(filmler.containsKey("Avatar")){
+    print("Filmler içinde Avatar var.");
+  }
+  else{
+    print("aradığınız film filmler listesinde bulunmuyor.");
+  }
+
+}
